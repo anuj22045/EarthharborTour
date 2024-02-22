@@ -1,0 +1,1064 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+body{
+    background-color: blue;
+    padding: 30px;
+}
+.navbar-style{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 4px 5px 10px #000000;
+    
+}
+  /* ---------------------------------------------------header---------------------------------------------------------------------------*/
+.heading{
+    margin-right: 0.01%;
+    font-weight: 500;
+    font-family: audiowide;
+    text-shadow: 6px 6px 8px #0d0c0d;
+    font-size: 2.2rem;
+    line-height: 2.3;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    color: rgba(0, 212, 198, 0.999);
+}
+.header-image{
+    border-radius: 9px;
+    position: static; 
+}
+.list-inline{
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 4;
+}
+.signin-button{
+    padding:7px;
+    margin:17px;
+    font-weight: bolder;
+    border-radius: 10px;
+    color:#0d0c0d;
+    background-color:#fff;
+    line-height: 1;
+    line-break: normal;   
+}
+.nav-desc{
+    text-wrap:balance;
+    color:rgba(19, 190, 247, 0.999);
+    font-weight: 600;
+    text-align: left;
+}
+.explore-button1{
+    border-radius: 8px;
+    color:#000000;
+    font-weight: bolder;
+    margin-right: 9rem;
+}
+.link-color{
+    color: #fdfdfd;
+}
+.nav-text-div{
+    margin-top: 30px;
+    padding-left:10px;
+    padding-right:10px;
+    color:rgba(159, 255, 255, 0.927);
+}
+.heading-h2{
+    font-weight: 750;
+    font-size: xxx-large;
+    padding-right: 5rem;
+    padding-left: 2%;
+    text-align: left;
+}
+
+/* ----------------------------------------------------------section1 (popular destinations)------------------------------------------*/
+.heading3{
+    margin-top:4rem;
+    font-weight: 650;
+    padding-left: 55px;
+    font-family: syne handgloves;
+}
+.section-desc1{
+    text-wrap: balance;
+    margin: 0.5rem;
+    padding-left: 3rem;
+    font-display:initial;
+}
+.explore-button2{
+    color:#000000;
+    line-height: 0.5rem; 
+    margin-top: 7rem;
+    font-weight: 650;
+    }
+
+.image-effiltower{
+    display: flex;
+    margin-left:3rem;
+    border-radius: 15px;
+    box-shadow: 0 .3rem .5rem rgb(57, 58, 53);  
+    height: 265px;
+    width: 235px; 
+}
+.text{
+    margin-left:3rem;
+    padding-top:0.6rem;
+    font-size: 1.1rem;
+color: rgba(18, 57, 70, 0.999);}
+                
+.image-effiltower:hover{
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-10px);
+}
+
+.image-lakshadweep{
+    border-radius: 15px;
+    margin-left: 2.5rem;
+    box-shadow: 0 .3rem .5rem rgb(57, 58, 53);
+    height:265px;
+    width:235px;
+}
+.image-lakshadweep:hover{
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+        transform: translateY(-10px);
+}
+.image-washington{
+    border-radius: 15px;
+    margin-left:2.3rem;
+    box-shadow: 0 .3rem .5rem rgb(57, 58, 53);
+    height:265px;
+    width: 235px;
+}
+.image-washington:hover{
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-10px);
+}
+
+.image-sydney{
+border-radius: 15px;
+margin-left: 2rem;
+box-shadow: 0 .3rem .5rem rgb(57, 58, 53);
+height:265px;
+width:235px;
+}
+.image-sydney:hover{
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-10px);
+}
+
+
+/*-------------------------------------------section2  (Explore ICELAND)-----------------------------------------------------------------*/
+.section-2{
+    margin-top:9rem;
+    margin-left:3rem;
+    background-position: fixed;
+    box-shadow: 4px 5px 10px #000000;
+    /* margin: 3rem; */
+}
+.image-iceland{
+    width: 300px;
+    height:350px;
+    border-radius: 10px;
+    margin-left:5rem;
+    margin-bottom: 2rem;
+}
+.E-edit{
+    font-size:45px;
+    font-weight: bolder;
+    color:rgb(255, 8, 8);
+    font-family: audiowide;
+}
+.I-edit{
+    font-weight: bolder;
+    font-size:45px;
+    color:rgb(225, 10, 10);
+    font-family: audiowide;
+}
+.heading-h3{
+    margin-left: 4rem;
+    padding-top: 4rem;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.section2-para{
+    text-wrap: balance;
+    margin-left: 4rem;
+    font-size: 19px;
+}
+.explore-button3{
+    margin-left: 5rem;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+/*----------------------------------------------------------section 3 (browse by properties type)----------------------------------------*/
+.section-3{
+    margin-top: 5.2rem;
+    background-position: fixed;
+}
+.heading-4{
+    font-weight:bolder ;
+    font-family: syne Handgloves;
+    color:#000000
+}
+.hotel-image{
+    height: 12rem;
+    
+    border-radius: 9px;
+    box-shadow: 0 .3rem .5rem rgb(57, 58, 53);  
+}
+.hotel-image:hover {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-10px);
+}
+.apartment-image{
+   height: 12rem;
+border-radius: 9px;
+    box-shadow: 0 .3rem .5rem rgb(57, 58, 53);
+}
+.apartment-image:hover {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-10px);
+}
+.resort-image{
+    height: 12rem;
+    border-radius: 9px;
+        box-shadow: 0 .3rem .5rem rgb(57, 58, 53);
+}
+.resort-image:hover {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-10px);
+}
+.villa-image{
+    height: 12rem;
+    border-radius: 9px;
+        box-shadow: 0 .3rem .5rem rgb(57, 58, 53);
+}
+.villa-image:hover {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-10px);
+}
+
+/*---------------------------------------------------section 4(stay at top properties)---------------------------------------------------*/
+.section-4{
+    margin-top: 3rem;
+}
+.heading-h5{
+    font-weight: bolder;
+    font-family: syne Handgloves;
+}
+.cabrele-image{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 9px;
+    box-shadow: 0 .3rem .5rem rgb(57, 58, 53);
+}
+
+.cabrele-image:hover {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-10px);
+}
+.high-park-image{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 9px;
+    box-shadow: 0 .3rem .5rem rgb(57, 58, 53);
+}
+.high-park-image:hover {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-10px);
+}
+.kaijansaaren-image{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 9px;
+    box-shadow: 0 .3rem .5rem rgb(57, 58, 53);
+}
+.kaijansaaren-image:hover {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-10px);
+}
+.lodge-cabin-image{
+    width: 20rem;
+    height: 15rem;
+    border-radius: 9px;
+    box-shadow: 0 .3rem .5rem rgb(57, 58, 53);
+}
+.lodge-cabin-image:hover {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-10px);
+}
+.section-5{
+    margin-top: 7rem;
+    margin-left: 11rem;   
+}
+
+.heading-h6{
+   font-weight: bolder;
+   font-family:syne Handgloves;;
+   
+}
+.section5-para{
+  text-wrap: balance;
+}
+
+
+
+/*-----------------------------------------------------section 4 Destination images------------------------------------------------*/
+.container{
+    position: relative;
+}
+
+.taj_mahal-image {
+    border-radius: 15px;
+    width: 350px;
+    height: 340px;
+    box-shadow: 0 .3rem .5rem rgb(57, 58, 53);
+
+        
+}
+.text2{
+    margin-left: 0.6rem;
+    padding-top: 0.6rem;
+    font-size:1.1rem;
+}
+.taj_mahal-image:hover {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-10px);
+}
+
+.ladakh-image{
+    border-radius: 15px;
+    width:350px;
+    height:340px;
+    box-shadow: 0 .3rem .5rem rgb(57, 58, 53);
+}
+.ladakh-image:hover {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-10px);
+}
+
+.bali-image{
+    border-radius: 15px;
+    width: 350px;
+    height: 340px;
+    box-shadow: 0 .3rem .5rem rgb(57, 58, 53);
+}
+.bali-image:hover {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-10px);
+}
+.burj_khalifa-image{
+    border-radius: 15px;
+    width: 350px;
+    height: 340px;
+    box-shadow: 0 .3rem .5rem rgb(57, 58, 53);
+}
+.burj_khalifa-image:hover {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-10px);
+}
+/* ----------------------------------------------------------Footer-------------------------------------------------------------------------*/
+.footer{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 .2rem .4rem rgb(57, 58, 53);
+}
+.footer-section{
+    margin-top: 3.7rem;
+    width:83.5rem;
+    height:20rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.footer-heading1{
+color: rgba(0, 212, 198, 0.999);
+font-family: Audiowide;
+margin-top: 7rem;
+margin-left:5rem;
+text-shadow: 6px 6px 8px #0d0c0d;
+}
+.facebook-logo {
+    width: 30px;
+    height: 30px;
+    margin-left:9.4rem
+}
+.instagram-logo{
+    width:30px;
+    height:30px;
+    border-radius: 53px;
+}
+.linkedin-logo{
+    width:30px;
+    height:30px;
+    border-radius: 30px; 
+}
+.twitter-logo{
+    width:30px;
+    height:30px;
+    border-radius: 30px; 
+}
+.footer-heading2{
+    color: rgba(159, 255, 255, 0.927);
+    margin-top: 3rem;
+    margin-left:11rem;
+    margin-bottom: 2rem;
+}
+.footer-para2{
+    color: rgba(19, 190, 247, 0.999);
+    margin-left: 11rem;
+    margin-top: -15px;
+}
+.footer-heading3{
+    color: rgba(159, 255, 255, 0.927);
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    margin-left:3rem;
+}
+.footer-para3{
+color: rgba(19, 190, 247, 0.999);
+margin-left: 3rem;
+margin-top:-15px;
+}
+.footer-heading4{
+    color: rgba(159, 255, 255, 0.927);
+    margin-top:3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+}
+.footer-para4{
+color: rgba(19, 190, 247, 0.999);
+margin-top: -15px;
+}
+.footer-last-para{
+    font-size: 19px;
+    color:rgba(19, 190, 247, 0.999);
+}
+/* -----------------------------------------About----------------------------------------------------------------------- */
+.heading-section1{
+    font-family: audiowide;
+    font-size: 2.2rem;
+}
+.about-section1{
+    background-color: rgb(226, 244, 241);
+    border-radius: 20px;
+    width: 100%;
+    border: 1px solid #898686 ;
+}
+.about-image1-top-left{
+    background-color: red;
+    width: 34%;
+    height: 14rem;
+    margin-left: 11%;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.para-1-top-right{
+    text-align: justify;
+    text-align-last: justify;  
+    font-size: 18px;
+    margin-top: 3rem;
+    margin-right: 4.7rem;
+    margin-left: 1.8rem; 
+    width: 56%;
+}
+.para-heading{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.para-2-bottom-left{
+    text-align: justify;
+    font-size: 18px;
+    margin-top: -1.4rem;
+    width:56%;
+    margin-left:11%;
+}
+.about-image2-bottom-right{
+    width:34%;
+    height:14rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    margin-right: 4.7rem;
+    margin-left: 1.8rem;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.section-div{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:row;
+    width: 100%;
+}
+/*-----------------------------------------------------------------section 2(About)-----------------------------------------------------*/
+.about-section2{
+    border-radius: 15px;
+    width: 940px;
+    margin-right: 26rem;
+}
+.who-we-are{
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+}
+.heading2-section{
+    color: #000000;
+    margin-left: 4rem;
+}
+.section2-para1{
+    font-size: 18px;
+    text-align: justify;
+    text-align-last: justify;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+.heading3-section{
+    color: #000000;
+    margin-left: 4.8rem;
+}
+.section2-para2{
+    font-size: 18px;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    text-align: justify;
+}
+.anuj-formal{
+    margin-left: 5rem;
+    width: 13rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.head-of-operation{
+    width: 13rem;
+    height: 16.8rem;
+    margin-left: 2rem;
+border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.designation-designer{
+    width: 13rem;
+    height: 16.7rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.anuj-para{
+    margin-left: 7.5rem;
+}
+.anuj-heading{
+    margin-left: 7.5rem;
+    color: #000000;
+}
+.shane-para{
+    margin-left: 4.3rem;
+}
+.shane-heading{
+    margin-left: 4.9rem;
+    color: #000000;
+}
+.shankar-para{
+    margin-left: 1.7rem;
+}
+.shankar-heading{
+    margin-left: 3rem;
+    color: #000000;
+}
+.heading4-section{
+      margin-left: 5rem;
+    color: #000000;
+}
+.section2-para3{
+  margin-left: 4.1rem;
+  margin-right: 4.4rem;
+text-align: justify;
+font-size: 18px;
+}
+
+/*--------------------------------------------------------section 3(destination)--------------------------------------------------------*/
+.section3{
+    background-color:#879584;
+    border-radius: 15px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.destination-section3{
+    color: #000000;
+    font-weight: bold;
+}
+.para-section3{
+    margin-left: 2rem;
+    text-align: justify;
+}
+.section3-image{
+    border-radius: 15px;
+}
+.join-us-section3{
+    color: #000000;
+    font-weight: bold;
+    margin-left: 0.5rem;
+}
+.para2-section3{
+    /* margin-left: 2rem; */
+    text-align: justify;
+    margin-right: 2rem;
+}
+/* -----------------------------------------------Destination--------------------------------------------------------------------------- */
+.destination-heading {
+    font-family: audiowide;
+    font-size: 3vw;
+    font-weight: bold;
+}
+.section2{
+    background-color: rgb(217, 240, 237);
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius:1.5vw;
+    border: 1px solid #000000;
+}
+.destination-effil_tower-image{
+    border-radius: 1vw;
+    margin-top: 2vw;
+    margin-left:0.8vw;
+    width: 19vw;
+    height: 23vw
+}
+.destination-effil_tower-image:hover {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-10px);
+}
+.dest-effil-image-head{
+    margin-left: 2vw;
+    font-weight: bold;
+}
+.dest-para1-effil{
+    margin-left: 2vw;
+
+}
+.dest-para2-day-effil{
+    margin-left: 4vw;
+}
+.destination-washington-image{
+    border-radius: 1vw;
+    margin-top: 2vw;
+    width: 19vw;
+    height: 23vw;
+    margin-left: 0.5vw;     
+}
+.destination-washington-image:hover {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-10px);
+}
+.dest-washington-image-head{
+    margin-left: 2vw;
+    font-weight: bold;
+}
+.dest-para1-washington{
+    margin-left: 2vw;
+}
+.dest-para2-day-washington{
+    margin-left: 4vw;
+}
+.destination-bali-image{
+    border-radius: 1vw;
+    margin-top: 2vw;
+    width: 19vw;
+    height: 23vw;
+    margin-left: 0.2vw;
+}
+.destination-bali-image:hover {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-10px);
+}
+.dest-bali-image-head{
+   margin-left: 2vw;
+   font-weight: bold;
+}
+.dest-para1-bali{
+    margin-left: 2vw;
+}
+.dest-para2-day-bali{
+   margin-left: 3.8vw;
+}
+.destination-stbasil-image{
+    border-radius: 1vw;
+    margin-top: 2vw;
+    width: 19vw;
+    height: 23vw;       
+}
+.destination-stbasil-image:hover {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-10px);
+}
+.dest-stbasil-image-head{
+    margin-left: 1.7vw;
+    font-weight: bold;
+}
+.dest-para1-stbasil{
+    margin-left: 1.7vw;
+}
+.dest-para2-day-stbasil{
+    margin-left: 3.2vw;
+}
+.destination-taj-mahal-image{
+    border-radius: 1vw;
+    margin-top: 1.3vw;
+    margin-left: 0.9vw;
+    width: 19vw;
+    height: 23vw;
+}
+.destination-taj-mahal-image:hover {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-10px);
+}
+.dest-taj-mahal-image-head{
+    margin-left: 2vw;
+    font-weight: bold;
+}
+.dest-para1-taj-mahal{
+     margin-left: 2vw;
+}
+.dest-para2-day-taj-mahal{
+    margin-left: 4vw;
+}
+.destination-lakshadweep-image{
+    border-radius: 1vw;
+    margin-top: 1.3vw;
+    margin-left: 0.5vw;
+    width: 19vw;
+    height: 23vw;
+}
+.destination-lakshadweep-image:hover {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-10px);
+}
+.dest-lakshadweep-image-head{
+    margin-left: 2vw;
+    font-weight: bold;
+}
+.dest-para1-lakshadweep{
+    margin-left: 2vw;
+}
+.dest-para2-day-lakshadweep{
+    margin-left: 3.5vw;
+}
+.destination-burj-khalifa-image{
+    border-radius: 1vw;
+    margin-top: 1.3vw;
+    margin-left: 0.2vw;
+    width: 19vw;
+    height: 23vw;
+}
+.destination-burj-khalifa-image:hover {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-10px);
+}
+.dest-burj-khalifa-image-head{
+    margin-left: 1.8vw;
+    font-weight: bold;
+}  
+.dest-para1-burj-khalifa{
+    margin-left: 1.8vw;
+}
+.dest-para2-day-burj-khalifa{
+    margin-left: 4vw;
+}
+.destination-ladakh-image{
+    border-radius: 1vw;
+    margin-top: 1.3vw;
+    width: 19vw;
+    height: 23vw;
+}
+.destination-ladakh-image:hover {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-10px);
+}
+.dest-ladakh-image-head{
+    margin-left: 1.5vw;
+    font-weight: bold;
+}
+.dest-para1-ladakh{
+    margin-left: 1.5vw;
+}
+.dest-para2-day-ladakh{
+    margin-left: 3.8vw;
+}
+.destination-maldives-image{
+    border-radius: 1vw;
+    margin-top: 1.3vw;
+    margin-left: 0.9vw;
+    width: 19vw;
+    height: 23vw;
+}
+.destination-maldives-image:hover {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-10px);
+}
+.dest-maldives-image-head{
+    margin-left: 2.2vw;
+    font-weight: bold;
+}
+.dest-para1-maldives{
+    margin-left: 2.2vw;
+}
+.dest-para2-day-maldives{
+    margin-left: 3.4vw;
+}
+.destination-kiyomizu-dera{
+    border-radius: 1vw;
+    margin-top: 1.3vw;
+    margin-left: 0.5vw;
+    width: 19vw;
+    height: 23vw;
+}
+.destination-kiyomizu-dera:hover {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-10px);
+}
+.dest-kitomizu-image-head{
+    margin-left: 1.5vw;
+    font-weight: bold;
+}
+.dest-para1-kitomizu{
+    margin-left: 1.5vw;
+}
+.dest-para2-day-kitomizu{
+    margin-left: 3.6vw;
+}
+.destination-kashmir-image{
+    border-radius: 1vw;
+    margin-top: 1.3vw;
+    margin-left: 0.3vw;
+    width: 19vw;
+    height: 23vw;
+}
+.destination-kashmir-image:hover {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-10px);
+}
+.dest-kashmir-image-head{
+    margin-left: 1.5vw;
+    font-weight: bold;
+}
+.dest-para1-kashmir{
+    margin-left: 1.5vw;
+}
+.dest-para2-day-kashmir{
+    margin-left: 3.6vw;
+}
+.destination-operahouse-image{
+    border-radius: 1vw;
+    margin-top: 1.3vw;
+    width: 19vw;
+    height: 23vw;
+}
+.destination-operahouse-image:hover {
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: translateY(-10px);
+}
+.dest-operahouse-image-head{
+    margin-left: 1.5vw;
+        font-weight: bold;
+}
+.dest-para1-operahouse{
+    margin-left: 1.5vw;
+}
+.dest-para2-day-operahouse{
+    margin-left: 3.6vw;
+}   
+
+/* ----------------------------------------------------------blog-------------------------------------------------------------------------- */
+.blog-section-left{
+    background-color: rgba(7, 187, 248, 0.999);
+    margin-top: 10%;
+    margin-left: 5%;
+    border-radius: 25px;
+}
+.blog-heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.7vw;
+    font-family: Audiowide;
+    margin-top: 12%;
+}
+input[type=text],textarea, input[type="file"]{
+    width: 75%;
+    padding: 5px 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: rgba(159, 255, 255, 0.927);
+    font-size: 1.3rem;
+    margin-left: 11%;
+    margin-top: 2%;
+}
+input[type="submit"]{
+    width: 75%;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+    background-color: #000000;
+    font-size: 2rem;
+    color:white; 
+    margin-left: 11%;
+    margin-top: 4%;
+    margin-bottom: 15%;
+}
+/* ----------------------------------------------------------contact----------------------------------------------------------------------- */
+
+.contact-section-center{
+    background-color: rgb(13, 199, 146);
+    margin-top: 10%;
+    /* margin-left: 5%; */
+    border-radius: 25px;
+    margin-left: 28%;
+}
+.contact-heading{
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+input[name="name"], input[name="email"], input[name="contact number"], textarea[placeholder="Your Query"] {
+    width: 75%;
+    padding: 5px 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: rgba(159, 255, 255, 0.927);
+    font-size: 1.3rem;
+    /* margin-left: 8%; */
+    margin-top: 2%;
+}
+input[name="submit"] {
+    width: 75%;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+    background-color: #000000;
+    font-size: 2rem;
+    color: white;
+    margin-right: 10.6%;
+    margin-top: 4%;
+    margin-bottom: 15%;
+}
+/* ------------------------------------------------------Signin------------------------------------------------------------------------ */
+.signin-bg{
+    background-image: url(signin-bg-image.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+.forget{
+    cursor: pointer;
+}
+.signin-section-left{
+    background: rgba(242, 242, 242, 0.10);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(1.2px);
+    -webkit-backdrop-filter: blur(1px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width:40%;
+    height:100vh;
+    margin-top: -4vh;
+    margin-left: -4vw;
+    margin-bottom: -5%;
+}
+.signin-form-bg{
+    margin-top: 16vw;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    border: 1px solid rgba(255, 255, 255, 0.85);
+    margin-left: 10vh;
+    margin-right: 7vh;
+}
+input[placeholder="Username"]{
+    width: 75%;
+    padding: 5px 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: rgba(159, 255, 255, 0.927);
+    font-size: 1.3rem;
+    margin-left: 11%;
+        /* margin-left: 8%; */
+    margin-top: 2%;
+}
+input[value="Login"]{
+    width: 75%;
+    /* padding: 5px 10px; */
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #101010;
+    font-size: 1.9rem;
+    color: white;
+    margin-right: 10.6%;
+    margin-top: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* margin-bottom: 15%; */
+    height: 6.5vh;
+}
+.login-button{
+    margin-left: 16.2%;
+    font-size: 1.9Vw;
+    font-weight: bold;
+    background-color: #000000ec;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+/* -----------------------------------------------------------Register------------------------------------------------------------------ */
+input[ type="number"]{
+    width: 75%;
+    padding: 5px 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: rgba(159, 255, 255, 0.927);
+    font-size: 1.3rem;
+    margin-left: 11%;
+    margin-top: 2%;
+}
+.register-form-bg{
+    margin-top: 13vw;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    border: 1px solid rgba(255, 255, 255, 0.85);
+    margin-left: 10vh;
+    margin-right: 7vh;
+    }
+.register-button{
+    font-size: 1.9vw;
+    font-weight: bold;
+    background-color: #000000;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    color: #e9e7e7;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input[value="Register"] {
+    width: 75%;
+    /* padding: 5px 10px; */
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #101010;
+    font-size: 1.9rem;
+    margin-right: 10.6%;
+    margin-top: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* margin-bottom: 15%; */
+    height: 6.5vh;
+}
+a:hover {
+text-decoration: none;
+}
